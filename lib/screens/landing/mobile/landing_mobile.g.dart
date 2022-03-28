@@ -186,7 +186,7 @@ class _LandingMobile extends State<LandingMobile> {
                     Positioned(
                       left: 10.0,
                       right: 9.0,
-                      top: 191.0,
+                      top: 192.0,
                       height: 44.0,
                       child: SoftwareDeveloperCustom(
                           child: AutoSizeText(
