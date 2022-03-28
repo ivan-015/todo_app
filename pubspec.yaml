@@ -1,0 +1,27 @@
+name: test_portfolio
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.16.1 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  widgetbook: 2.0.5-beta
+  auto_size_text: 3.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/test_portfolio/assets/images/subtract.png
+    - packages/test_portfolio/assets/images/image1.png
+    - packages/test_portfolio/assets/images/ivan.png
+    - packages/test_portfolio/assets/images/rectangle1.png
+    - packages/test_portfolio/assets/images/rectangle2.png
+    - packages/test_portfolio/assets/images/rectangle3.png
+    - packages/test_portfolio/assets/images/rectangle4.png
+    - packages/test_portfolio/assets/images/subtract2.png
