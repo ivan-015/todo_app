@@ -1,0 +1,39 @@
+name: graph
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.16.1 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  widgetbook: 2.0.5-beta
+  auto_size_text: 3.0.0
+  flutter_svg: ^1.0.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/graph/assets/images/widgetbase.png
+    - packages/graph/assets/images/targetarea.png
+    - packages/graph/assets/images/red.png
+    - packages/graph/assets/images/orange.png
+    - packages/graph/assets/images/yellow.png
+    - packages/graph/assets/images/green.png
+    - packages/graph/assets/images/line.svg
+    - packages/graph/assets/images/path.svg
+    - packages/graph/assets/images/group22.svg
+    - packages/graph/assets/images/base.png
+    - packages/graph/assets/images/linegraph.svg
+    - packages/graph/assets/images/oval.png
+    - packages/graph/assets/images/shape.png
+    - packages/graph/assets/images/feelingbad.png
+    - packages/graph/assets/images/feelinggreat.png
+    - packages/graph/assets/images/feelingneutral.png
+    - packages/graph/assets/images/playandbecomespause.png
+    - packages/graph/assets/images/scrubbing.png
+    - packages/graph/assets/images/fileselection.png
