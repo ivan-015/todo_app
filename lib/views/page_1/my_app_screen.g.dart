@@ -39,12 +39,12 @@ class _MyAppScreen extends State<MyAppScreen> {
                   right: 0,
                   top: 0,
                   height: 95.0,
-                  child: Image.asset(
-                    'assets/images/background.png',
-                    package: 'hello_world',
+                  child: Container(
                     height: 95.0,
                     width: MediaQuery.of(context).size.width * 1.0,
-                    fit: BoxFit.fitWidth,
+                    decoration: BoxDecoration(
+                      color: Color(0xff10a81f),
+                    ),
                   ),
                 ),
                 Positioned(
