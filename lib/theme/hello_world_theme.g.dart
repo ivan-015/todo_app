@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';import 'package:hello_world/theme/hello_w
 
 class HelloWorldTheme {
 
-static const ColorScheme light = ColorScheme.light(secondary: HelloWorldColors.lightSecondary);
+static const ColorScheme light = ColorScheme.light(secondary: HelloWorldColors.lightSecondary,primary: HelloWorldColors.lightPrimary);
 
 static  ThemeData themeDataLight = ThemeData( colorScheme: light,);
 }
