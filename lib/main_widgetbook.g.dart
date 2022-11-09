@@ -1105,7 +1105,7 @@ constraints,
       )
     ,
       WidgetbookWidget(
-        name: 'Wallet Agreement',
+        name: 'WalletAgreement',
         useCases: [
       WidgetbookUseCase(
         name: 'WalletAgreement',
