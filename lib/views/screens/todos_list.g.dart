@@ -30,11 +30,12 @@ class _TodosList extends State<TodosList> {
         Positioned(
           left: 0,
           width: MediaQuery.of(context).size.width * 1.013,
+          top: 93.0,
           bottom: 0,
-          height: 574.0,
           child: Center(
               child: Container(
-                  height: 574.0,
+                  height:
+                      MediaQuery.of(context).size.height * 0.8605697151424287,
                   width: 380.0,
                   child: TodosScrollviewCustom(
                       child: Container(
@@ -44,7 +45,6 @@ class _TodosList extends State<TodosList> {
                             top: 0,
                             bottom: 0,
                           ),
-                          height: 574.0,
                           decoration: BoxDecoration(),
                           child: Column(
                               mainAxisAlignment: MainAxisAlignment.start,
