@@ -29,103 +29,98 @@ class _TodosList extends State<TodosList> {
       child: Stack(children: [
         Positioned(
           left: 0,
-          width: MediaQuery.of(context).size.width * 1.013,
+          right: 0,
           top: 93.0,
           bottom: 0,
-          child: Center(
+          child: TodosScrollviewCustom(
               child: Container(
-                  height:
-                      MediaQuery.of(context).size.height * 0.8605697151424287,
-                  width: 380.0,
-                  child: TodosScrollviewCustom(
-                      child: Container(
-                          padding: EdgeInsets.only(
-                            left: 10,
-                            right: 10,
-                            top: 0,
-                            bottom: 0,
-                          ),
-                          decoration: BoxDecoration(),
-                          child: Column(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                                SizedBox(
-                                  height: 10,
-                                ),
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                                SizedBox(
-                                  height: 10,
-                                ),
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                                SizedBox(
-                                  height: 10,
-                                ),
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                                SizedBox(
-                                  height: 10,
-                                ),
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                                SizedBox(
-                                  height: 10,
-                                ),
-                                Container(
-                                    height: 60.0,
-                                    width: 360.0,
-                                    child: LayoutBuilder(
-                                        builder: (context, constraints) {
-                                      return TodoTile(
-                                        constraints,
-                                        ovrTaskName: 'Task Name',
-                                      );
-                                    })),
-                              ]))))),
+                  padding: EdgeInsets.only(
+                    left: 10,
+                    right: 10,
+                    top: 0,
+                    bottom: 0,
+                  ),
+                  decoration: BoxDecoration(),
+                  child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Container(
+                            height: 60.0,
+                            width: 360.0,
+                            child:
+                                LayoutBuilder(builder: (context, constraints) {
+                              return TodoTile(
+                                constraints,
+                                ovrTaskName: 'Task Name',
+                              );
+                            })),
+                      ]))),
         ),
         Positioned(
           right: 34.5,
