@@ -47,7 +47,6 @@ class _TodosList extends State<TodosList> {
                       children: [
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
@@ -60,7 +59,6 @@ class _TodosList extends State<TodosList> {
                         ),
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
@@ -73,7 +71,6 @@ class _TodosList extends State<TodosList> {
                         ),
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
@@ -86,7 +83,6 @@ class _TodosList extends State<TodosList> {
                         ),
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
@@ -99,7 +95,6 @@ class _TodosList extends State<TodosList> {
                         ),
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
@@ -112,7 +107,6 @@ class _TodosList extends State<TodosList> {
                         ),
                         Container(
                             height: 60.0,
-                            width: 360.0,
                             child:
                                 LayoutBuilder(builder: (context, constraints) {
                               return TodoTile(
