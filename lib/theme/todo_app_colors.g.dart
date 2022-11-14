@@ -10,7 +10,7 @@ class TodoAppColors {
 
 static const Color darkPrimary = Color(0xff404040);
 
-static const Color darkOutline = Color(0xff484242);
-
 static const Color darkBackground = Color(0xff181818);
+
+static const Color darkOutline = Color(0xff484242);
 }

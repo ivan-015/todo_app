@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';import 'package:todo_app/theme/todo_app_c
 
 class TodoAppTheme {
 
-static const ColorScheme dark = ColorScheme.dark(primary: TodoAppColors.darkPrimary,outline: TodoAppColors.darkOutline,background: TodoAppColors.darkBackground);
+static const ColorScheme dark = ColorScheme.dark(primary: TodoAppColors.darkPrimary,background: TodoAppColors.darkBackground,outline: TodoAppColors.darkOutline);
 
 static  ThemeData themeDataDark = ThemeData( colorScheme: dark,);
 }

@@ -55,7 +55,7 @@ class TodoTitleWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(10),
         ),
         filled: true,
-        fillColor: Color(0xFFFFFFFF),
+        fillColor: Color(0xff181818),
         suffixIcon: null,
       ),
       controller: logic.controller,
