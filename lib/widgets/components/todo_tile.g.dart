@@ -44,10 +44,10 @@ class _TodoTile extends State<TodoTile> {
               Positioned(
                 left: 55.0,
                 width: 250.0,
-                top: 4.0,
-                height: 53.0,
+                top: 19.0,
+                bottom: 19.0,
                 child: Container(
-                    height: 53.0,
+                    height: widget.constraints.maxHeight * 0.36666666666666664,
                     width: 250.0,
                     child: AutoSizeText(
                       widget.ovrTaskName ?? 'Task Name',
