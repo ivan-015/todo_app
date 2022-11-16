@@ -7,6 +7,8 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:todo_app/widgets/components/custom/checkbox_custom.dart';
+import 'package:todo_app/widgets/components/custom/trash_button_custom.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class TodoTile extends StatefulWidget {
   final BoxConstraints constraints;
@@ -74,6 +76,24 @@ class _TodoTile extends State<TodoTile> {
                   width: 25.0,
                   fit: BoxFit.none,
                 )),
+              ),
+              Positioned(
+                left: 322.0,
+                width: 25.0,
+                top: widget.constraints.maxHeight * 0.3,
+                height: widget.constraints.maxHeight * 0.417,
+                child: Center(
+                    child: Container(
+                        height: 25.0,
+                        width: 25.0,
+                        child: TrashButtonCustom(
+                            child: SvgPicture.asset(
+                          'assets/images/trashbuttoncustom.svg',
+                          package: 'todo_app',
+                          height: 25.0,
+                          width: 25.0,
+                          fit: BoxFit.scaleDown,
+                        )))),
               ),
             ]),
           ),
