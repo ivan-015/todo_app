@@ -2,20 +2,26 @@ name: todo_app
 description: A new Flutter project.
 publish_to: none
 version: 1.0.0+1
-environment: 
-  sdk: '>=2.18.4 <3.0.0'
-dependencies: 
-  flutter: 
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+dependencies:
+  flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
   widgetbook: 2.0.5-beta
   auto_size_text: 3.0.0
-dev_dependencies: 
-  flutter_test: 
+  flutter_bloc: ^8.1.1
+  todo_api:
+    path: ./packages/todo_api
+  shared_preferences: ^2.0.15
+  flutter_svg: ^1.1.6
+dev_dependencies:
+  flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-flutter: 
+flutter:
   uses-material-design: true
-  assets: 
+  assets:
     - packages/todo_app/assets/images/checkboxcustom.png
     - packages/todo_app/assets/images/plusbackground.png
+    - packages/todo_app/assets/images/trashbuttoncustom.svg

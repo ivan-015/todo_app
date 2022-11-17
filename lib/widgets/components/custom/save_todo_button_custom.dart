@@ -1,4 +1,6 @@
-import 'package:todo_app/widgets/components/save_todo_button.g.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:todo_app/cubit/edit_todo_cubit.dart';
+import 'package:todo_app/views/screens/todos_list.g.dart';
 
 import 'package:flutter/material.dart';
 
@@ -16,10 +18,13 @@ class SaveTodoButtonCustom extends StatefulWidget {
 class _SaveTodoButtonCustomState extends State<SaveTodoButtonCustom> {
   @override
   Widget build(BuildContext context) {
-    return widget.child ??
-        SaveTodoButton(BoxConstraints(
-          maxWidth: 360.0,
-          maxHeight: 50.0,
-        ));
+    return MaterialButton(
+      padding: const EdgeInsets.all(0),
+      onPressed: () async {
+        context.read<EditTodoCubit>().saveTodo();
+        Navigator.of(context).pop();
+      },
+      child: widget.child!,
+    );
   }
 }

@@ -1,0 +1,1 @@
+A sample TODO API that uses local storage to save TODOs in user's device
