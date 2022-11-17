@@ -78,7 +78,7 @@ class _TodoTile extends State<TodoTile> {
                 )),
               ),
               Positioned(
-                left: 322.0,
+                right: 13.0,
                 width: 25.0,
                 top: widget.constraints.maxHeight * 0.3,
                 height: widget.constraints.maxHeight * 0.417,
