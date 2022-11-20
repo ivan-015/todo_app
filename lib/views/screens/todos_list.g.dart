@@ -29,7 +29,7 @@ class _TodosList extends State<TodosList> {
       child: Stack(children: [
         Positioned(
           left: 0,
-          right: 5.5,
+          right: 0,
           top: 93.0,
           bottom: 0,
           child: TodosScrollviewCustom(
@@ -117,10 +117,10 @@ class _TodosList extends State<TodosList> {
                       ]))),
         ),
         Positioned(
-          right: 0,
-          width: 100.0,
-          bottom: 15.0,
-          height: 100.0,
+          right: 34.5,
+          width: 60.0,
+          bottom: 34.0,
+          height: 60.0,
           child: PlusButtonCustom(
               child: LayoutBuilder(builder: (context, constraints) {
             return PlusButton(
@@ -129,8 +129,8 @@ class _TodosList extends State<TodosList> {
                 'assets/images/plusbackground.png',
                 package: 'todo_app',
                 height:
-                    MediaQuery.of(context).size.height * 0.14992503748125938,
-                width: MediaQuery.of(context).size.width * 0.26666666666666666,
+                    MediaQuery.of(context).size.height * 0.08995502248875563,
+                width: MediaQuery.of(context).size.width * 0.16,
                 fit: BoxFit.contain,
               ),
             );
@@ -138,7 +138,7 @@ class _TodosList extends State<TodosList> {
         ),
         Positioned(
           left: 2.5,
-          right: 8.0,
+          right: 2.5,
           top: 0,
           height: 60.0,
           child: LayoutBuilder(builder: (context, constraints) {
