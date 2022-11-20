@@ -125,13 +125,6 @@ class _TodosList extends State<TodosList> {
               child: LayoutBuilder(builder: (context, constraints) {
             return PlusButton(
               constraints,
-              ovrPlusBackground: Image.asset(
-                'assets/images/plusbackground.png',
-                package: 'todo_app',
-                height: 60.0,
-                width: 60.0,
-                fit: BoxFit.none,
-              ),
             );
           })),
         ),
