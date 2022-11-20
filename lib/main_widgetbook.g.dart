@@ -112,7 +112,7 @@ constraints,
       WidgetbookUseCase(
         name: 'PlusButton',
         builder: (context) => Center(child:       SizedBox(
-        height: 100.0,width: 100.0,
+        height: 60.0,width: 60.0,
         child: LayoutBuilder( 
   builder: (context, constraints) {
     return PlusButton(

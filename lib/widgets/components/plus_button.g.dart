@@ -49,21 +49,23 @@ class _PlusButton extends State<PlusButton> {
                     ),
               ),
               Positioned(
-                left: widget.constraints.maxWidth * 0.2,
-                width: widget.constraints.maxWidth * 0.6,
-                top: widget.constraints.maxHeight * 0.2,
-                height: widget.constraints.maxHeight * 0.6,
+                left: widget.constraints.maxWidth * 0.333,
+                width: widget.constraints.maxWidth * 0.333,
+                top: widget.constraints.maxHeight * 0.333,
+                height: widget.constraints.maxHeight * 0.333,
                 child: Container(
                     decoration: BoxDecoration(),
                     child: Stack(children: [
                       Positioned(
-                        left: widget.constraints.maxWidth * 0.27,
-                        width: widget.constraints.maxWidth * 0.06,
+                        left: widget.constraints.maxWidth * 0.15,
+                        width: widget.constraints.maxWidth * 0.033,
                         top: 0,
-                        height: widget.constraints.maxHeight * 0.6,
+                        height: widget.constraints.maxHeight * 0.333,
                         child: Container(
-                          height: widget.constraints.maxHeight * 0.6,
-                          width: widget.constraints.maxWidth * 0.06,
+                          height:
+                              widget.constraints.maxHeight * 0.3333333333333333,
+                          width:
+                              widget.constraints.maxWidth * 0.03333333333333333,
                           decoration: BoxDecoration(
                             color: Color(0xffd9d9d9),
                           ),
@@ -71,12 +73,14 @@ class _PlusButton extends State<PlusButton> {
                       ),
                       Positioned(
                         left: 0,
-                        width: widget.constraints.maxWidth * 0.6,
-                        top: widget.constraints.maxHeight * 0.27,
-                        height: widget.constraints.maxHeight * 0.06,
+                        width: widget.constraints.maxWidth * 0.333,
+                        top: widget.constraints.maxHeight * 0.15,
+                        height: widget.constraints.maxHeight * 0.033,
                         child: Container(
-                          height: widget.constraints.maxHeight * 0.06,
-                          width: widget.constraints.maxWidth * 0.6,
+                          height: widget.constraints.maxHeight *
+                              0.03333333333333333,
+                          width:
+                              widget.constraints.maxWidth * 0.3333333333333333,
                           decoration: BoxDecoration(
                             color: Color(0xffd9d9d9),
                           ),
