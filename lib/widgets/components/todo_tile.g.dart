@@ -45,13 +45,13 @@ class _TodoTile extends State<TodoTile> {
             child: Stack(children: [
               Positioned(
                 left: 55.0,
-                width: 250.0,
+                right: 55.0,
                 top: widget.constraints.maxHeight * 0.317,
                 height: widget.constraints.maxHeight * 0.367,
                 child: Center(
                     child: Container(
                         height: 22.0,
-                        width: 250.0,
+                        width: widget.constraints.maxWidth * 0.6944444444444444,
                         child: AutoSizeText(
                           widget.ovrTaskName ?? 'Task Name',
                           style: TextStyle(
