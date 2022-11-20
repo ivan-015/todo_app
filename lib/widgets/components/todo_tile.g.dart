@@ -46,36 +46,41 @@ class _TodoTile extends State<TodoTile> {
               Positioned(
                 left: 55.0,
                 width: 250.0,
-                top: 19.0,
-                bottom: 19.0,
-                child: Container(
-                    height: widget.constraints.maxHeight * 0.36666666666666664,
-                    width: 250.0,
-                    child: AutoSizeText(
-                      widget.ovrTaskName ?? 'Task Name',
-                      style: TextStyle(
-                        fontFamily: 'Roboto',
-                        fontSize: 16,
-                        fontWeight: FontWeight.w400,
-                        letterSpacing: 0,
-                        color: Colors.white,
-                      ),
-                      textAlign: TextAlign.left,
-                    )),
+                top: widget.constraints.maxHeight * 0.317,
+                height: widget.constraints.maxHeight * 0.367,
+                child: Center(
+                    child: Container(
+                        height: 22.0,
+                        width: 250.0,
+                        child: AutoSizeText(
+                          widget.ovrTaskName ?? 'Task Name',
+                          style: TextStyle(
+                            fontFamily: 'Roboto',
+                            fontSize: 16,
+                            fontWeight: FontWeight.w400,
+                            letterSpacing: 0,
+                            color: Colors.white,
+                          ),
+                          textAlign: TextAlign.left,
+                        ))),
               ),
               Positioned(
                 left: 20.0,
                 width: 25.0,
-                top: 18.0,
-                height: 25.0,
-                child: CheckboxCustom(
-                    child: Image.asset(
-                  'assets/images/checkboxcustom.png',
-                  package: 'todo_app',
-                  height: 25.0,
-                  width: 25.0,
-                  fit: BoxFit.none,
-                )),
+                top: widget.constraints.maxHeight * 0.3,
+                height: widget.constraints.maxHeight * 0.417,
+                child: Center(
+                    child: Container(
+                        height: 25.0,
+                        width: 25.0,
+                        child: CheckboxCustom(
+                            child: Image.asset(
+                          'assets/images/checkboxcustom.png',
+                          package: 'todo_app',
+                          height: 25.0,
+                          width: 25.0,
+                          fit: BoxFit.scaleDown,
+                        )))),
               ),
               Positioned(
                 right: 21.0,
