@@ -25,32 +25,16 @@ class _Appbar extends State<Appbar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        decoration: BoxDecoration(),
+        decoration: BoxDecoration(
+          color: Color(0xff404040),
+        ),
         child: Stack(children: [
           Positioned(
-            left: 0,
-            width: widget.constraints.maxWidth * 1.0,
-            top: 0,
-            height: widget.constraints.maxHeight * 1.0,
-            child: Stack(children: [
-              Positioned(
-                left: 0,
-                right: 0,
-                top: 0,
-                bottom: 0,
-                child: Container(
-                  height: widget.constraints.maxHeight * 1.0,
-                  width: widget.constraints.maxWidth * 1.0,
-                  decoration: BoxDecoration(
-                    color: Color(0xff404040),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 148.0,
-                right: 148.0,
-                top: 23.0,
-                height: 19.0,
+            left: 148.0,
+            right: 148.0,
+            top: widget.constraints.maxHeight * 0.383,
+            height: widget.constraints.maxHeight * 0.317,
+            child: Center(
                 child: Container(
                     height: 19.0,
                     width: widget.constraints.maxWidth * 0.21066666666666667,
@@ -64,9 +48,7 @@ class _Appbar extends State<Appbar> {
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
-                    )),
-              ),
-            ]),
+                    ))),
           ),
         ]));
   }
